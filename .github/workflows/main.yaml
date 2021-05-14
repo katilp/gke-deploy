@@ -10,8 +10,8 @@ env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true  
   
 jobs:
-  build-publish-deploy:
-    name: Build, Publish and Deploy
+  setup-build-publish-deploy:
+    name: Setup, Build, Publish and Deploy
     runs-on: ubuntu-latest
 
     steps:
