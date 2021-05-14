@@ -8,7 +8,7 @@ env:
   GKE_ZONE: europe-west6-a
   IMAGE: dwk-environments
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true  
-  
+   
 jobs:
   setup-build-publish-deploy:
     name: Setup, Build, Publish and Deploy
