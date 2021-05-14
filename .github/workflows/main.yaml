@@ -30,6 +30,8 @@ jobs:
     
     - run: |-
         echo $GKE_CLUSTER
+        echo $GKE_ZONE
+        gcloud auth list
         gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE
          
     - name: Build
